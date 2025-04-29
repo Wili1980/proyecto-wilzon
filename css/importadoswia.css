@@ -1,0 +1,202 @@
+/*font-family: "Big Shoulders Stencil", sans-serif;*/
+/*font-family: "Abril Fatface", serif;*/
+
+body {
+    font-family: "Abril Fatface", serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header {
+    background-color: rgb(140, 155, 66);
+    padding: 10px 0;
+}
+
+header h1 {
+    color: rgb(68, 41, 8);
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 50px;
+    margin-left: 50px;
+    font-family: "Big Shoulders Stencil", sans-serif;
+}
+
+nav {
+    background-color: blueviolet;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: aquamarine;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li:hover {
+    background-color: black;
+}
+
+footer {
+    background-color: rgba(83, 156, 156, 0.507);
+    clear: both;
+    color: rgba(2, 2, 35, 0.666);
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+
+nav ul li a.activo {
+    background-color: brown;
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: rgb(139, 94, 9);
+    *font-weight: 200;
+}
+
+/*inicio home*/
+.bienvenidos {
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.testimonios {
+    width: 25%;
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bienvenidos p {
+    font-size: 20px;
+}
+
+.testimonio {
+    background-color: aquamarine;
+    padding: 16px;
+}
+
+.testimonio .cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    background-color: yellow;
+    display: block;
+}
+
+.testimonio .autor {
+    font-size: 10px;
+    text-align: center;
+    background-color: rgb(173, 168, 189);
+    display: block;
+    margin: 12px 0;
+}
+
+/*fin home*/
+/*inicio nosotros*/
+.historia {
+    font-size: 12px;
+}
+
+.personas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona {
+    border: 5px solid wheat;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+    /*background-color: blueviolet;*/
+}
+
+.persona img {
+    border-radius: 50%;
+    max-width: 60%;
+    box-shadow: 0 0 5px black;
+}
+
+.persona h5,
+.persona h6 {
+    margin: 0;
+    font-weight: normal;
+    color: blueviolet;
+}
+
+.persona h5 {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.persona h6 {
+    font-size: 13px;
+    font-style: italic;
+}
+
+.persona p {
+    font-size: 14px;
+}
+
+/*fin nosotros*/
+/*inicio servicios*/
+.servicio {
+    border: 1px solid orange;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.servicio .info h4 {
+    color: rgb(154, 154, 71);
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid burlywood;
+    padding-bottom: 10px;
+}
+
+.servicio .info p {
+    font-size: 13px;
+    /*line-height: 19px;*/
+}
+
+.servicio img {
+    border-radius: 13px;
+    display: block;
+    max-width: 225px;
+}
+
+.servicio:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+/*fin servicios*/
